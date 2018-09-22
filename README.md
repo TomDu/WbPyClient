@@ -1,0 +1,2 @@
+# WbPyClient
+Simple Weibo client.
