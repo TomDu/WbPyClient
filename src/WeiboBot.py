@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # coding=UTF-8
 
 # import datetime
@@ -40,7 +41,7 @@ def run():
     client.statuses.share.post(status=u'This is a test. https://github.com/TomDu/WeiboBot')
 
 if init():
-    schedule.every(1).minutes.do(run)
+    schedule.every().day.at("15:30").do(run)
 
     while True:
         schedule.run_pending()
