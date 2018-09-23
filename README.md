@@ -1,2 +1,3 @@
-# WbPyClient
-Simple Weibo client.
+# WeiboBot
+
+A simple Weibo client written in Python.
